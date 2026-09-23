@@ -1,0 +1,12 @@
+{
+  "name": "project_management",
+  "version": "1.0.0",
+  "description": "project on project management system",
+  "license": "ISC",
+  "author": "Alfat Tasnim Hasan",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  }
+}
