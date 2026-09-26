@@ -17,6 +17,11 @@ app.use(
   }),
 );
 
+// import routes
+import healthCheck from "./routes/healthcheck.routes.js";
+
+app.use("/api/v1/healthcheck", healthCheck);
+
 app.get("/", (req, res) => {
   res.send(`Welcome to basecamp`);
 });
